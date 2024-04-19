@@ -4,7 +4,9 @@ State management in Flutter refers to the management of the application's state,
 
 Various methods for managing state exist in Flutter, each tailored to specific application needs. One such method is the Provider package, a widely used solution for state management.
 
-A popular state management solution that uses the Provider package to manage state and dependencies. It is based on the InheritedWidget mechanism but provides a simpler and more efficient way to manage state and share data across the widget tree. It uses **ChangeNotifier** and **ChangeNotifierProvider** to notify listeners when the state changes.
+A popular state management solution that uses the Provider package to manage state and dependencies. It is based on the InheritedWidget mechanism but provides a simpler and more efficient way to manage state and share data across the widget tree.
+
+It uses `ChangeNotifier` and `ChangeNotifierProvider` to notify listeners when the state changes.
 
 ✔️ In the initial example, we explored a counter application with Provider, delving into state manipulation and understanding the role of ChangeNotifier. We examined the concept of global context and its functionality within the application.
 
